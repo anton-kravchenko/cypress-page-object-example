@@ -1,0 +1,20 @@
+{
+  "name": "cypress-page-object-example",
+  "version": "1.0.0",
+  "description": "Test project that demonstrate how to use utilize page object patter in Cypress using cypress-selectors package",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome",
+    "cypress:run:ci": "export BROWSER=none; cypress run --browser chrome --headless"
+  },
+  "author": "Anton Kravchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^5.5.8",
+    "cypress": "^8.3.1",
+    "cypress-selectors": "^1.0.1",
+    "faker": "^5.5.3",
+    "typescript": "^4.4.2"
+  }
+}
