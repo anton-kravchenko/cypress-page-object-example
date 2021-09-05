@@ -6,5 +6,5 @@ To execute tests run:
 
 ```sh
 npm i
-cypress:run:ci
+npm run cypress:run:ci
 ```
