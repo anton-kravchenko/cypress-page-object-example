@@ -8,7 +8,7 @@ class LoginPageSelectors {
 }
 
 class LoginPage {
-  login(email: string = Cypress.env('CYPRESS_EMAIL'), password: string = Cypress.env('CYPRESS_PASSWORD')) {
+  login(email: string = Cypress.env('email'), password: string = Cypress.env('password')) {
     LoginPageSelectors.emailInput.type(email);
     LoginPageSelectors.passwordInput.type(password);
     LoginPageSelectors.signInButton.click();

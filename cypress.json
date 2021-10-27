@@ -1,4 +1,8 @@
 {
   "baseUrl": "https://cirosantilli-realworld-next.herokuapp.com/",
-  "video": false
+  "video": false,
+  "env": {
+    "email": "test@test.com",
+    "password": "12345"
+  }
 }
