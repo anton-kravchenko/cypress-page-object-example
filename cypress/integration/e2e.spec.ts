@@ -1,5 +1,5 @@
 import * as faker from 'faker';
-import { HomePage, HomePageSelectors, NewArticlePage } from '../pages/';
+import { HomePage, HomePageSelectors } from '../pages/';
 import { ArticlePageSelectors } from '../pages/ArticlePage';
 import { ProfilePageSelectors } from '../pages/ProfilePage';
 

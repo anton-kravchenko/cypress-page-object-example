@@ -21,7 +21,6 @@ class NewArticlePage {
 
   enterContent(body: string) {
     NewArticlePageSelectors.articleBodyInput.type(body);
-    cy.get;
     return this;
   }
 

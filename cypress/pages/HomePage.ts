@@ -14,12 +14,12 @@ class HomePage {
     return this;
   }
 
-  goToLoginPage() {
+  goToLoginPage(): LoginPage {
     HomePageSelectors.loginPageLink.click();
     return new LoginPage();
   }
 
-  goToNewArticlePage() {
+  goToNewArticlePage(): NewArticlePage {
     HomePageSelectors.newArticleButton.click();
     return new NewArticlePage();
   }
