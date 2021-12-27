@@ -1,7 +1,7 @@
 {
   "name": "cypress-page-object-example",
   "version": "1.0.0",
-  "description": "Test project that demonstrate how to use utilize page object pattern in Cypress using cypress-selectors package",
+  "description": "Test project that demonstrates how to use utilize page object pattern in Cypress using cypress-selectors package",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
