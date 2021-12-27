@@ -4,7 +4,7 @@ class NewArticlePageSelectors {
   @By.Attribute('Article Title', { attribute: 'placeholder' }) static title: Selector;
   @By.Attribute("What's this article about?", { attribute: 'placeholder' }) static description: Selector;
   @By.Type('textarea') static articleBodyInput: Selector;
-  @By.Attribute('Enter tags', { attribute: 'placeholder' }) static tags: Selector;
+  @By.Attribute('Press Enter, Tab or Comma to add a tag', { attribute: 'placeholder' }) static tags: Selector;
   @By.Text.Partial('Publish') static publishButton: Selector;
 }
 
